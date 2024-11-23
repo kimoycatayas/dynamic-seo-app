@@ -18,6 +18,11 @@ const BlogPostPage = ({ post }: { post: BlogPost }) => {
           title: post.title,
           description: post.description,
           url: `https://www.example.com/blog/${post.slug}`,
+          images: [
+            {
+              url: "https://storage.googleapis.com/hudu-bucket/7c3dee73-d994-4a0b-b83b-b0afa44d623c.webp",
+            },
+          ],
         }}
       />
       <main>
